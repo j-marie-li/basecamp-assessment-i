@@ -57,6 +57,7 @@ var colorResponse;
 var responseCreator = function(param){
   if(param == "green"){
     colorResponse = "Green is okay"; 
+    
   }
   else if (param == "red") {
     colorResponse = "I heart red"; 
@@ -65,6 +66,7 @@ var responseCreator = function(param){
   {
     colorResponse = "What is your favorite color?";
   }
+  return(colorResponse);
 }
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
